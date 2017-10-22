@@ -1,4 +1,4 @@
 # EasyPR-DLL-CSharp
 
-### ´ıÍêÉÆ
+### å¾…å®Œå–„
 ### Need to be complete!
