@@ -1,0 +1,7 @@
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\bin\Debug\test_interface.exe.config
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\bin\Debug\test_interface.exe
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\bin\Debug\test_interface.pdb
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\obj\Debug\test_interface.Properties.Resources.resources
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\obj\Debug\test_interface.csproj.GenerateResource.Cache
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\obj\Debug\test_interface.exe
+L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\test_interface\obj\Debug\test_interface.pdb

@@ -1,0 +1,8 @@
+LIBRARY "CreateDLL"
+
+EXPORTS
+
+do_lps @ 1
+get_license_str @ 2
+get_color_str @ 3
+train_svm @ 4

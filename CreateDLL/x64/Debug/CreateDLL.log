@@ -1,0 +1,34 @@
+﻿生成启动时间为 5月1日 16:31:16。
+     1>项目“L:\Users\zc\Desktop\LPS\CreateDLL\CreateDLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         L:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"L:\opencv 3.1.0\opencv\build\include" /I"L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\CreateDLL\test" /I"L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\CreateDLL\include" /IL:\Users\zc\Desktop\LPS\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\CreateDLL.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CreateDLL.cpp xmlParser.cpp
+         xmlParser.cpp
+     1>xmlParser.cpp(54): warning C4627: “#include "xmlParser.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(61): warning C4627: “#include <Windows.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(65): warning C4627: “#include <memory.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(66): warning C4627: “#include <assert.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(67): warning C4627: “#include <stdio.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(69): warning C4627: “#include <stdlib.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(290): warning C4627: “#include <widec.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(301): warning C4627: “#include <wctype.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(364): warning C4627: “#include <widec.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>xmlParser.cpp(2915): warning C4005: “BASE64DECODE_READ_NEXT_CHAR”: 宏重定义
+                 xmlParser.cpp(2911) : 参见“BASE64DECODE_READ_NEXT_CHAR”的前一个定义
+     1>xmlParser.cpp(2976): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         CreateDLL.cpp
+     1>CreateDLL.cpp(6): fatal error C1083: 无法打开包括文件: “easypr.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“L:\Users\zc\Desktop\LPS\CreateDLL\CreateDLL.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.37

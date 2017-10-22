@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/10/22 16:01:53。
+     1>项目“C:\Users\ZhangCan\Desktop\LPS\CreateDLL\CreateDLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV310\opencv\build\include /IC:\Users\ZhangCan\Desktop\LPS\CreateDLL\main_file /IC:\Users\ZhangCan\Desktop\LPS\CoreCode\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\CreateDLL.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4267 /wd4819 /wd4305 /wd4244 /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV310\opencv\build\include /IC:\Users\ZhangCan\Desktop\LPS\CreateDLL\main_file /IC:\Users\ZhangCan\Desktop\LPS\CoreCode\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\CreateDLL.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4267 /wd4819 /wd4305 /wd4244 /errorReport:prompt CreateDLL.cpp
+         CreateDLL.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV310\opencv\build\include /IC:\Users\ZhangCan\Desktop\LPS\CreateDLL\main_file /IC:\Users\ZhangCan\Desktop\LPS\CoreCode\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4267 /wd4819 /wd4305 /wd4244 /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV310\opencv\build\include /IC:\Users\ZhangCan\Desktop\LPS\CreateDLL\main_file /IC:\Users\ZhangCan\Desktop\LPS\CoreCode\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4267 /wd4819 /wd4305 /wd4244 /errorReport:prompt xmlParser.cpp
+         xmlParser.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\OpenCV310\opencv\build\x64\vc12\lib opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"CreateDLL.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.lib" /MACHINE:X64 /DLL x64\Release\CreateDLL.obj
+         x64\Release\dllmain.obj
+         x64\Release\stdafx.obj
+         x64\Release\xmlParser.obj
+         C:\Users\ZhangCan\Desktop\LPS\x64\Release\LibLPS.lib
+     1>CreateDLL.obj : warning LNK4197: 多次指定导出“get_license_str”；使用第一个规范
+            正在创建库 C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.lib 和对象 C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.exp
+         正在生成代码
+         已完成代码的生成
+         CreateDLL.vcxproj -> C:\Users\ZhangCan\Desktop\LPS\x64\Release\CreateDLL.dll
+     1>已完成生成项目“C:\Users\ZhangCan\Desktop\LPS\CreateDLL\CreateDLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.06

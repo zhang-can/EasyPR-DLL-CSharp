@@ -1,0 +1,61 @@
+﻿生成启动时间为 2017/10/22 16:03:55。
+     1>项目“C:\Users\ZhangCan\Desktop\LPS\CoreCode\vcprojs\libeasypr.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Core.vcxproj, libeasypr.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\OpenCV310\opencv\build\include /IC:\Users\ZhangCan\Desktop\LPS\\include /IC:\Users\ZhangCan\Desktop\LPS\CoreCode\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4267 /wd4819 /wd4305 /wd4244 /errorReport:prompt ..\src\core\chars_identify.cpp ..\src\core\chars_recognise.cpp ..\src\core\chars_segment.cpp ..\src\core\core_func.cpp ..\src\core\feature.cpp ..\src\core\params.cpp ..\src\core\plate_detect.cpp ..\src\core\plate_judge.cpp ..\src\core\plate_locate.cpp ..\src\core\plate_recognize.cpp ..\src\preprocess\deface.cpp ..\src\preprocess\gdts.cpp ..\src\preprocess\mc_data.cpp ..\src\train\ann_train.cpp ..\src\train\svm_train.cpp ..\src\train\train.cpp ..\src\util\kv.cpp ..\src\util\program_options.cpp ..\src\util\util.cpp ..\thirdparty\LBP\helper.cpp ..\thirdparty\LBP\lbp.cpp ..\thirdparty\mser\mser2.cpp ..\thirdparty\svm\corrected_svm.cpp ..\thirdparty\textDetect\erfilter.cpp
+         chars_identify.cpp
+         chars_recognise.cpp
+         chars_segment.cpp
+         core_func.cpp
+         feature.cpp
+         params.cpp
+         plate_detect.cpp
+         plate_judge.cpp
+         plate_locate.cpp
+         plate_recognize.cpp
+         deface.cpp
+         gdts.cpp
+         mc_data.cpp
+         ann_train.cpp
+         svm_train.cpp
+         train.cpp
+         kv.cpp
+         program_options.cpp
+         util.cpp
+         helper.cpp
+         正在编译...
+         lbp.cpp
+         mser2.cpp
+         corrected_svm.cpp
+         erfilter.cpp
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\ZhangCan\Desktop\LPS\x64\Release\LibLPS.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\chars_identify.obj
+         x64\Release\chars_recognise.obj
+         x64\Release\chars_segment.obj
+         x64\Release\core_func.obj
+         x64\Release\feature.obj
+         x64\Release\params.obj
+         x64\Release\plate_detect.obj
+         x64\Release\plate_judge.obj
+         x64\Release\plate_locate.obj
+         x64\Release\plate_recognize.obj
+         x64\Release\deface.obj
+         x64\Release\gdts.obj
+         x64\Release\mc_data.obj
+         x64\Release\ann_train.obj
+         x64\Release\svm_train.obj
+         x64\Release\train.obj
+         x64\Release\kv.obj
+         x64\Release\program_options.obj
+         x64\Release\util.obj
+         x64\Release\helper.obj
+         x64\Release\lbp.obj
+         x64\Release\mser2.obj
+         x64\Release\corrected_svm.obj
+         x64\Release\erfilter.obj
+         libeasypr.vcxproj -> C:\Users\ZhangCan\Desktop\LPS\x64\Release\LibLPS.lib
+     1>已完成生成项目“C:\Users\ZhangCan\Desktop\LPS\CoreCode\vcprojs\libeasypr.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.44

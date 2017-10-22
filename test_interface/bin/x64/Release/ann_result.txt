@@ -1,0 +1,282 @@
+>> Testing characters V in resources/train/ann/V
+>>   [sum: 350, correct: 350, rate: 1.00]
+>>   [
+
+     ]
+>> Testing characters W in resources/train/ann/W
+>>   [sum: 350, correct: 349, rate: 1.00]
+>>   [
+       30_174_264: 贵
+       ...
+     ]
+>> Testing characters X in resources/train/ann/X
+>>   [sum: 350, correct: 349, rate: 1.00]
+>>   [
+       debug_char_auxRoi_909: C
+       ...
+     ]
+>> Testing characters Y in resources/train/ann/Y
+>>   [sum: 350, correct: 349, rate: 1.00]
+>>   [
+       32_27_34: C
+       ...
+     ]
+>> Testing characters Z in resources/train/ann/Z
+>>   [sum: 350, correct: 347, rate: 0.99]
+>>   [
+       33_145_241: 京,
+       33_232_56: 3,
+       debug_char_auxRoi_1426: 9
+       ...
+     ]
+>> Testing characters zh_cuan in resources/train/ann/zh_cuan
+>>   [sum: 350, correct: 327, rate: 0.93]
+>>   [
+       23: L,
+       320_sun_chuan_15: 桂,
+       34_106_21: 赣
+       ...
+     ]
+>> Testing characters zh_e in resources/train/ann/zh_e
+>>   [sum: 350, correct: 317, rate: 0.91]
+>>   [
+       319_sun_e_8: T,
+       35_103_100: 湘,
+       35_122_76: 苏,
+       35_133_148: P
+       ...
+     ]
+>> Testing characters zh_gan in resources/train/ann/zh_gan
+>>   [sum: 350, correct: 342, rate: 0.98]
+>>   [
+       36_122_159: P,
+       36_177_150: P,
+       36_189_109: 京,
+       36_214_43: C,
+       36_259_294: C,
+       36_69_126: 京,
+       debug_chineseMat119: X,
+       debug_chineseMat183: C
+       ...
+     ]
+>> Testing characters zh_gan1 in resources/train/ann/zh_gan1
+>>   [sum: 350, correct: 324, rate: 0.93]
+>>   [
+       37_113_119: 津,
+       37_116_131: P,
+       37_155_144: F
+       ...
+     ]
+>> Testing characters zh_gui in resources/train/ann/zh_gui
+>>   [sum: 350, correct: 318, rate: 0.91]
+>>   [
+       38_106_42: resources/model/ann_chinese.xml,
+       38_108_3: J,
+       38_126_159: resources/model/ann_chinese.xml,
+       38_136_97: J
+       ...
+     ]
+>> Testing characters zh_gui1 in resources/train/ann/zh_gui1
+>>   [sum: 350, correct: 307, rate: 0.88]
+>>   [
+       39_103_127: 鄂,
+       39_110_11: X,
+       39_130_127: 蒙,
+       39_131_87: 渝,
+       39_133_142: 4
+       ...
+     ]
+>> Testing characters zh_hei in resources/train/ann/zh_hei
+>>   [sum: 350, correct: 333, rate: 0.95]
+>>   [
+       40_117_171: 闽,
+       40_137_173: 京
+       ...
+     ]
+>> Testing characters zh_hu in resources/train/ann/zh_hu
+>>   [sum: 350, correct: 350, rate: 1.00]
+>>   [
+
+     ]
+>> Testing characters zh_ji in resources/train/ann/zh_ji
+>>   [sum: 350, correct: 332, rate: 0.95]
+>>   [
+       42_112_115: 云,
+       42_144_224: P
+       ...
+     ]
+>> Testing characters zh_jin in resources/train/ann/zh_jin
+>>   [sum: 350, correct: 326, rate: 0.93]
+>>   [
+       43_12_203: 鄂,
+       43_13_48: 渝,
+       43_1_190: 6
+       ...
+     ]
+>> Testing characters zh_jing in resources/train/ann/zh_jing
+>>   [sum: 350, correct: 327, rate: 0.93]
+>>   [
+       44_0_66: C,
+       44_104_171: 晋,
+       44_107_251: 津
+       ...
+     ]
+>> Testing characters zh_jl in resources/train/ann/zh_jl
+>>   [sum: 350, correct: 310, rate: 0.89]
+>>   [
+       45_134_132: 沪,
+       45_137_61: P,
+       45_148_114: 蒙,
+       45_150_109: C
+       ...
+     ]
+>> Testing characters zh_liao in resources/train/ann/zh_liao
+>>   [sum: 350, correct: 332, rate: 0.95]
+>>   [
+       46_168_199: 京,
+       46_170_225: 云
+       ...
+     ]
+>> Testing characters zh_lu in resources/train/ann/zh_lu
+>>   [sum: 350, correct: 341, rate: 0.97]
+>>   [
+       47_125_84: P,
+       47_172_179: 津,
+       47_174_84: 甘,
+       47_206_41: P,
+       47_221_137: P,
+       47_225_261: 蒙,
+       47_33_41: P,
+       47_75_11: 黑,
+       debug_char_auxRoi_2739: P
+       ...
+     ]
+>> Testing characters zh_meng in resources/train/ann/zh_meng
+>>   [sum: 350, correct: 336, rate: 0.96]
+>>   [
+       48_132_129: W,
+       48_146_182: 赣
+       ...
+     ]
+>> Testing characters zh_min in resources/train/ann/zh_min
+>>   [sum: 350, correct: 349, rate: 1.00]
+>>   [
+       49_182_146: 晋
+       ...
+     ]
+>> Testing characters zh_ning in resources/train/ann/zh_ning
+>>   [sum: 350, correct: 334, rate: 0.95]
+>>   [
+       50_110_136: 黑,
+       50_147_142: 黑
+       ...
+     ]
+>> Testing characters zh_qing in resources/train/ann/zh_qing
+>>   [sum: 350, correct: 339, rate: 0.97]
+>>   [
+       51_160_1: 湘,
+       51_175_39: 贵
+       ...
+     ]
+>> Testing characters zh_qiong in resources/train/ann/zh_qiong
+>>   [sum: 350, correct: 317, rate: 0.91]
+>>   [
+       52_102_80: E,
+       52_110_54: G,
+       52_116_46: G,
+       52_120_132: E
+       ...
+     ]
+>> Testing characters zh_shan in resources/train/ann/zh_shan
+>>   [sum: 350, correct: 309, rate: 0.88]
+>>   [
+       53_105_122: Q,
+       53_112_33: 6,
+       53_114_140: P,
+       53_121_49: 1,
+       53_130_143: J
+       ...
+     ]
+>> Testing characters zh_su in resources/train/ann/zh_su
+>>   [sum: 350, correct: 348, rate: 0.99]
+>>   [
+       54_57_232: 沪,
+       54_70_255: G
+       ...
+     ]
+>> Testing characters zh_sx in resources/train/ann/zh_sx
+>>   [sum: 350, correct: 331, rate: 0.95]
+>>   [
+       55_0_39: P,
+       55_116_21: 陕
+       ...
+     ]
+>> Testing characters zh_wan in resources/train/ann/zh_wan
+>>   [sum: 350, correct: 349, rate: 1.00]
+>>   [
+       56_175_176: 渝
+       ...
+     ]
+>> Testing characters zh_xiang in resources/train/ann/zh_xiang
+>>   [sum: 350, correct: 340, rate: 0.97]
+>>   [
+       57_128_147: 云
+       ...
+     ]
+>> Testing characters zh_xin in resources/train/ann/zh_xin
+>>   [sum: 350, correct: 327, rate: 0.93]
+>>   [
+       58_10_27: P,
+       58_168_29: 京,
+       58_206_27: P
+       ...
+     ]
+>> Testing characters zh_yu in resources/train/ann/zh_yu
+>>   [sum: 350, correct: 324, rate: 0.93]
+>>   [
+       59_126_228: P,
+       59_12_78: R,
+       59_139_118: 9
+       ...
+     ]
+>> Testing characters zh_yu1 in resources/train/ann/zh_yu1
+>>   [sum: 350, correct: 344, rate: 0.98]
+>>   [
+       60_121_109: 6,
+       60_134_163: 闽,
+       60_194_94: 6,
+       60_220_112: 川,
+       60_67_98: 6,
+       debug_chineseMat168: P
+       ...
+     ]
+>> Testing characters zh_yue in resources/train/ann/zh_yue
+>>   [sum: 350, correct: 337, rate: 0.96]
+>>   [
+       61_108_71: 浙,
+       61_62_77: C
+       ...
+     ]
+>> Testing characters zh_yun in resources/train/ann/zh_yun
+>>   [sum: 350, correct: 332, rate: 0.95]
+>>   [
+       62_144_144: 渝,
+       62_148_104: T
+       ...
+     ]
+>> Testing characters zh_zang in resources/train/ann/zh_zang
+>>   [sum: 350, correct: 350, rate: 1.00]
+>>   [
+
+     ]
+>> Testing characters zh_zhe in resources/train/ann/zh_zhe
+>>   [sum: 350, correct: 333, rate: 0.95]
+>>   [
+       64_38_268: P,
+       64_58_101: 青
+       ...
+     ]
+>>   [sum_all: 27679, correct_all: 27010, rate: 0.9758]
+>>   [classNumber: 65, avg_rate: 0.9716]
+Your ANN Model was saved to resources/model/ann.xml
+Training done. 

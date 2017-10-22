@@ -1,0 +1,8 @@
+count_all: 2334
+ptrue_rtrue: 508
+ptrue_rfalse: 605
+pfalse_rtrue: 9
+pfalse_rfalse: 1210
+precise: 0.456424
+recall: 0.982592
+Fsocre: 0.623313

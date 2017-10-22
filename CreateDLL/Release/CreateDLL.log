@@ -1,0 +1,18 @@
+﻿生成启动时间为 4月22日 20:05:19。
+     1>项目“L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\CreateDLL\CreateDLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         L:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CREATEDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CreateDLL.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CreateDLL.cpp
+         CreateDLL.cpp
+       Link:
+         L:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"CreateDLL.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.lib" /MACHINE:X86 /SAFESEH /DLL Release\CreateDLL.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+            正在创建库 L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.lib 和对象 L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.exp
+         正在生成代码
+         已完成代码的生成
+         CreateDLL.vcxproj -> L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\Release\CreateDLL.dll
+     1>已完成生成项目“L:\Users\zc\Desktop\LPR-MFC\test_proj\DLLTest\CreateDLL\CreateDLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.67
