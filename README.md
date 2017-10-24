@@ -1,5 +1,7 @@
 # EasyPR-DLL-CSharp
 
+[![Join the chat at https://gitter.im/EasyPR-DLL-CSharp/Lobby](https://badges.gitter.im/EasyPR-DLL-CSharp/Lobby.svg)](https://gitter.im/EasyPR-DLL-CSharp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### 待完善
 ### Need to be complete!
 * 下载OpenCV3.1.0，解压
