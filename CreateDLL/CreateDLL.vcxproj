@@ -137,7 +137,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CREATEDLL_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\OpenCV310\opencv\build\include;C:\Users\ZhangCan\Desktop\LPS\CreateDLL\main_file;C:\Users\ZhangCan\Desktop\LPS\CoreCode\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenCV310\opencv\build\include;C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\CreateDLL\main_file;C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\CoreCode\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4267;4819;4305;4244</DisableSpecificWarnings>
     </ClCompile>
     <Link>

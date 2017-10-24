@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/10/24 17:20:35。
+     1>项目“C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\CoreCode\vcprojs\libeasypr.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"L:\opencv 3.1.0\opencv\build\include" /I"C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\include" /I"C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\\" /ID:\OpenCV310\opencv\build/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\_build\libeasypr\debug\\" /Fd"C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\_build\libeasypr\debug\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt ..\src\core\chars_identify.cpp ..\src\core\chars_recognise.cpp ..\src\core\chars_segment.cpp ..\src\core\core_func.cpp ..\src\core\feature.cpp ..\src\core\params.cpp ..\src\core\plate_detect.cpp ..\src\core\plate_judge.cpp ..\src\core\plate_locate.cpp ..\src\core\plate_recognize.cpp ..\src\preprocess\deface.cpp ..\src\preprocess\gdts.cpp ..\src\preprocess\mc_data.cpp ..\src\train\ann_train.cpp ..\src\train\svm_train.cpp ..\src\train\train.cpp ..\src\util\kv.cpp ..\src\util\program_options.cpp ..\src\util\util.cpp
+         util.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\util\util.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/util/util.h”: No such file or directory
+         program_options.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\util\program_options.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/util/program_options.h”: No such file or directory
+         kv.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\util\kv.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/util/kv.h”: No such file or directory
+         train.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\train\train.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/train/train.h”: No such file or directory
+         svm_train.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\train\svm_train.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/train/svm_train.h”: No such file or directory
+         ann_train.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\train\ann_train.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/train/ann_train.h”: No such file or directory
+         mc_data.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\preprocess\mc_data.cpp(3): fatal error C1083: 无法打开包括文件: “easypr/preprocess/mc_data.h”: No such file or directory
+         gdts.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\preprocess\gdts.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/preprocess/gdts.h”: No such file or directory
+         deface.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\preprocess\deface.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/preprocess/deface.h”: No such file or directory
+         plate_recognize.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\plate_recognize.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/plate_recognize.h”: No such file or directory
+         plate_locate.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\plate_locate.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/plate_locate.h”: No such file or directory
+         plate_judge.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\plate_judge.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/plate_judge.h”: No such file or directory
+         plate_detect.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\plate_detect.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/plate_detect.h”: No such file or directory
+         params.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\params.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/params.h”: No such file or directory
+         feature.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\feature.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/feature.h”: No such file or directory
+         core_func.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\core_func.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/core_func.h”: No such file or directory
+         chars_segment.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\chars_segment.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/chars_segment.h”: No such file or directory
+         chars_recognise.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\chars_recognise.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/chars_recognise.h”: No such file or directory
+         chars_identify.cpp
+     1>c:\users\zhangcan\desktop\easypr-dll-csharp\corecode\src\core\chars_identify.cpp(1): fatal error C1083: 无法打开包括文件: “easypr/core/chars_identify.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\ZhangCan\Desktop\EasyPR-DLL-CSharp\CoreCode\vcprojs\libeasypr.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.10
