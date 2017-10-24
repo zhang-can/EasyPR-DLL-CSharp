@@ -48,12 +48,12 @@
             this.文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.打开ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.模式切换ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.单图测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.批量测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.分步演示ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.车牌定位ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.字符分割ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.模式切换ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.单图测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.批量测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.训练模型ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sVM训练ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aNN训练ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -236,7 +236,7 @@
             this.帮助ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(884, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(884, 25);
             this.menuStrip1.TabIndex = 16;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -246,46 +246,22 @@
             this.打开ToolStripMenuItem,
             this.退出程序ToolStripMenuItem});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.文件ToolStripMenuItem.Text = "文件";
             // 
             // 打开ToolStripMenuItem
             // 
             this.打开ToolStripMenuItem.Name = "打开ToolStripMenuItem";
-            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.打开ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.打开ToolStripMenuItem.Text = "打开文件";
             this.打开ToolStripMenuItem.Click += new System.EventHandler(this.打开ToolStripMenuItem_Click);
             // 
             // 退出程序ToolStripMenuItem
             // 
             this.退出程序ToolStripMenuItem.Name = "退出程序ToolStripMenuItem";
-            this.退出程序ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.退出程序ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.退出程序ToolStripMenuItem.Text = "退出程序";
             this.退出程序ToolStripMenuItem.Click += new System.EventHandler(this.退出程序ToolStripMenuItem_Click);
-            // 
-            // 模式切换ToolStripMenuItem
-            // 
-            this.模式切换ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.单图测试ToolStripMenuItem,
-            this.批量测试ToolStripMenuItem});
-            this.模式切换ToolStripMenuItem.Name = "模式切换ToolStripMenuItem";
-            this.模式切换ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.模式切换ToolStripMenuItem.Text = "模式切换";
-            // 
-            // 单图测试ToolStripMenuItem
-            // 
-            this.单图测试ToolStripMenuItem.Checked = true;
-            this.单图测试ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.单图测试ToolStripMenuItem.Name = "单图测试ToolStripMenuItem";
-            this.单图测试ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.单图测试ToolStripMenuItem.Text = "单图模式";
-            // 
-            // 批量测试ToolStripMenuItem
-            // 
-            this.批量测试ToolStripMenuItem.Name = "批量测试ToolStripMenuItem";
-            this.批量测试ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.批量测试ToolStripMenuItem.Text = "批量模式";
-            this.批量测试ToolStripMenuItem.Click += new System.EventHandler(this.批量测试ToolStripMenuItem_Click);
             // 
             // 分步演示ToolStripMenuItem
             // 
@@ -293,23 +269,47 @@
             this.车牌定位ToolStripMenuItem,
             this.字符分割ToolStripMenuItem});
             this.分步演示ToolStripMenuItem.Name = "分步演示ToolStripMenuItem";
-            this.分步演示ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.分步演示ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.分步演示ToolStripMenuItem.Text = "分步演示";
             this.分步演示ToolStripMenuItem.Click += new System.EventHandler(this.分步演示ToolStripMenuItem_Click);
             // 
             // 车牌定位ToolStripMenuItem
             // 
             this.车牌定位ToolStripMenuItem.Name = "车牌定位ToolStripMenuItem";
-            this.车牌定位ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.车牌定位ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.车牌定位ToolStripMenuItem.Text = "车牌定位";
             this.车牌定位ToolStripMenuItem.Click += new System.EventHandler(this.车牌定位ToolStripMenuItem_Click);
             // 
             // 字符分割ToolStripMenuItem
             // 
             this.字符分割ToolStripMenuItem.Name = "字符分割ToolStripMenuItem";
-            this.字符分割ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.字符分割ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.字符分割ToolStripMenuItem.Text = "字符分割";
             this.字符分割ToolStripMenuItem.Click += new System.EventHandler(this.字符分割ToolStripMenuItem_Click);
+            // 
+            // 模式切换ToolStripMenuItem
+            // 
+            this.模式切换ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.单图测试ToolStripMenuItem,
+            this.批量测试ToolStripMenuItem});
+            this.模式切换ToolStripMenuItem.Name = "模式切换ToolStripMenuItem";
+            this.模式切换ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
+            this.模式切换ToolStripMenuItem.Text = "模式切换";
+            // 
+            // 单图测试ToolStripMenuItem
+            // 
+            this.单图测试ToolStripMenuItem.Checked = true;
+            this.单图测试ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.单图测试ToolStripMenuItem.Name = "单图测试ToolStripMenuItem";
+            this.单图测试ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.单图测试ToolStripMenuItem.Text = "单图模式";
+            // 
+            // 批量测试ToolStripMenuItem
+            // 
+            this.批量测试ToolStripMenuItem.Name = "批量测试ToolStripMenuItem";
+            this.批量测试ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.批量测试ToolStripMenuItem.Text = "批量模式";
+            this.批量测试ToolStripMenuItem.Click += new System.EventHandler(this.批量测试ToolStripMenuItem_Click);
             // 
             // 训练模型ToolStripMenuItem
             // 
@@ -317,20 +317,20 @@
             this.sVM训练ToolStripMenuItem,
             this.aNN训练ToolStripMenuItem});
             this.训练模型ToolStripMenuItem.Name = "训练模型ToolStripMenuItem";
-            this.训练模型ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.训练模型ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.训练模型ToolStripMenuItem.Text = "训练模型";
             // 
             // sVM训练ToolStripMenuItem
             // 
             this.sVM训练ToolStripMenuItem.Name = "sVM训练ToolStripMenuItem";
-            this.sVM训练ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.sVM训练ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.sVM训练ToolStripMenuItem.Text = "SVM训练";
             this.sVM训练ToolStripMenuItem.Click += new System.EventHandler(this.sVM训练ToolStripMenuItem_Click);
             // 
             // aNN训练ToolStripMenuItem
             // 
             this.aNN训练ToolStripMenuItem.Name = "aNN训练ToolStripMenuItem";
-            this.aNN训练ToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.aNN训练ToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.aNN训练ToolStripMenuItem.Text = "ANN训练";
             this.aNN训练ToolStripMenuItem.Click += new System.EventHandler(this.aNN训练ToolStripMenuItem_Click);
             // 
@@ -340,20 +340,20 @@
             this.sVM训练样本生成ToolStripMenuItem,
             this.aNN训练样本ToolStripMenuItem});
             this.生成样本ToolStripMenuItem.Name = "生成样本ToolStripMenuItem";
-            this.生成样本ToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.生成样本ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.生成样本ToolStripMenuItem.Text = "生成样本";
             // 
             // sVM训练样本生成ToolStripMenuItem
             // 
             this.sVM训练样本生成ToolStripMenuItem.Name = "sVM训练样本生成ToolStripMenuItem";
-            this.sVM训练样本生成ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.sVM训练样本生成ToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.sVM训练样本生成ToolStripMenuItem.Text = "SVM数据集";
             this.sVM训练样本生成ToolStripMenuItem.Click += new System.EventHandler(this.sVM训练样本生成ToolStripMenuItem_Click);
             // 
             // aNN训练样本ToolStripMenuItem
             // 
             this.aNN训练样本ToolStripMenuItem.Name = "aNN训练样本ToolStripMenuItem";
-            this.aNN训练样本ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.aNN训练样本ToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.aNN训练样本ToolStripMenuItem.Text = "ANN数据集";
             this.aNN训练样本ToolStripMenuItem.Click += new System.EventHandler(this.aNN训练样本ToolStripMenuItem_Click);
             // 
@@ -362,16 +362,16 @@
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.关于本系统ToolStripMenuItem});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // 关于本系统ToolStripMenuItem
             // 
             this.关于本系统ToolStripMenuItem.Name = "关于本系统ToolStripMenuItem";
-            this.关于本系统ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.关于本系统ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.关于本系统ToolStripMenuItem.Text = "关于本系统";
             // 
-            // Form1
+            // SinglePic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -383,8 +383,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "单图模式 - 车牌字符分割系统";
+            this.Name = "SinglePic";
+            this.Text = "单图模式 - EasyPR C# 版";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
