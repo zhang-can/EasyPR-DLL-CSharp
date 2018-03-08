@@ -4,9 +4,7 @@
 
 > 更多机器学习干货、最新论文解读、AI资讯热点等欢迎关注“[AI学院(FAICULTY)](https://faiculty.com/)”，内容持续更新中……
 
-> 欢迎加入faiculty机器学习交流qq群：451429116
-
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=2a5e710043cbd1200c5ed668cd89ed29731d3daeb4d3bdf3c1a484518793df50"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="faiculty: 机器学习交流" title="faiculty: 机器学习交流"></a>
+> 欢迎加入faiculty机器学习交流qq群：451429116([点此进群](//shang.qq.com/wpa/qunwpa?idkey=2a5e710043cbd1200c5ed668cd89ed29731d3daeb4d3bdf3c1a484518793df50))
 
 ### 说明
 本项目基于github上的 [EasyPR](https://github.com/liuruoze/EasyPR) 项目（作者：liuruoze，版本号：1.5正式版）开发。
