@@ -6,7 +6,7 @@
 
 > 欢迎加入faiculty机器学习交流qq群：451429116([点此进群](//shang.qq.com/wpa/qunwpa?idkey=2a5e710043cbd1200c5ed668cd89ed29731d3daeb4d3bdf3c1a484518793df50))
 
-> 如果本项目对你有帮助，希望可以点个star支持哈~
+> 如果本项目对你有帮助，希望可以点个★star支持哈~
 
 ### 说明
 本项目基于github上的 [EasyPR](https://github.com/liuruoze/EasyPR) 项目（作者：liuruoze，版本号：1.5正式版）开发。
