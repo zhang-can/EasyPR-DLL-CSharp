@@ -11,6 +11,8 @@
 ### 说明
 本项目基于github上的 [EasyPR](https://github.com/liuruoze/EasyPR) 项目（作者：liuruoze，版本号：1.5正式版）开发。
 
+百度网盘下载链接: https://pan.baidu.com/s/1mWHrq8eIn4EM_QKoJttQ9w 密码: ibky
+
 ### 环境要求
 * Microsoft Visual Studio 2013（VS2013）
 * OpenCV 3.1.0
