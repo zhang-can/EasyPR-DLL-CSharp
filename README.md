@@ -19,7 +19,7 @@
 
 ### 配置步骤
 
-1. 下载OpenCV3.1.0，安装（即解压）
+1. 下载[OpenCV3.1.0](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.1.0/opencv-3.1.0.exe/download)，安装（即解压）
 2. 添加环境变量：[opencv安装目录]\opencv\build\x64\vc12\bin
 3. 下载本项目，打开解决方案文件“EasyPR-DLL-CSharp.sln”，配置“CreateDLL”项目属性：
 
